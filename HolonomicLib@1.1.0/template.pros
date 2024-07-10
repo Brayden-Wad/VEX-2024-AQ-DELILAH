@@ -1,0 +1,22 @@
+{
+    "py/object": "pros.conductor.templates.external_template.ExternalTemplate",
+    "py/state": {
+        "metadata": {},
+        "name": "HolonomicLib",
+        "supported_kernels": "^3.7.3",
+        "system_files": [
+            "include\\HolonomicLib\\Utility\\StateMachine.hpp",
+            "include\\HolonomicLib\\API.hpp",
+            "firmware\\HolonomicLib.a",
+            "include\\HolonomicLib\\Utility\\Math.hpp",
+            "include\\HolonomicLib\\Pathing\\Trajectory.hpp",
+            "include\\HolonomicLib\\Chassis\\Controller\\AsyncHolonomicChassisController.hpp",
+            "include\\HolonomicLib\\Utility\\Units.hpp",
+            "include\\HolonomicLib\\Pathing\\Pose2D.hpp",
+            "include\\HolonomicLib\\Utility\\TaskWrapper.hpp"
+        ],
+        "target": "v5",
+        "user_files": [],
+        "version": "1.1.0"
+    }
+}
