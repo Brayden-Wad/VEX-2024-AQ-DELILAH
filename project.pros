@@ -4,6 +4,49 @@
         "project_name": "VEX-2024-AQ-ROBOT-02",
         "target": "v5",
         "templates": {
+            "LemLib": {
+                "location": "C:\\Users\\kdoug\\AppData\\Roaming\\PROS\\templates\\LemLib@0.5.2",
+                "metadata": {
+                    "origin": "LemLib"
+                },
+                "name": "LemLib",
+                "py/object": "pros.conductor.templates.local_template.LocalTemplate",
+                "supported_kernels": "^4.1.0",
+                "system_files": [
+                    "include/lemlib/pose.hpp",
+                    "include/lemlib/VERSION",
+                    "include/lemlib/logger/logger.hpp",
+                    "include/lemlib/asset.hpp",
+                    "include/lemlib/chassis/trackingWheel.hpp",
+                    "include/lemlib/logger/baseSink.hpp",
+                    "include/lemlib/chassis/odom.hpp",
+                    "include/fmt/format.h",
+                    "include/lemlib/chassis/chassis.hpp",
+                    "include/lemlib/logger/infoSink.hpp",
+                    "include/lemlib/logger/telemetrySink.hpp",
+                    "include/lemlib/logger/stdout.hpp",
+                    "include/lemlib/timer.hpp",
+                    "include/lemlib/pid.hpp",
+                    "include/fmt/args.h",
+                    "include/lemlib/logger/buffer.hpp",
+                    "include/lemlib/util.hpp",
+                    "include/fmt/format-inl.h",
+                    "include/lemlib/LICENSE",
+                    "include/lemlib/driveCurve.hpp",
+                    "include/lemlib/logger/message.hpp",
+                    "include/fmt/LICENSE",
+                    "firmware/LemLib.a",
+                    "include/fmt/core.h",
+                    "include/lemlib/api.hpp",
+                    "include/lemlib/exitcondition.hpp",
+                    "firmware/asset.mk",
+                    "static/example.txt",
+                    "include/lemlib/README.md"
+                ],
+                "target": "v5",
+                "user_files": [],
+                "version": "0.5.2"
+            },
             "kernel": {
                 "location": "C:\\Users\\kdoug\\AppData\\Roaming\\PROS\\templates\\kernel@4.1.0",
                 "metadata": {
